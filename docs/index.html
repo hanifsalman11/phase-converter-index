@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3PhaseVFDIndex — Single-to-3-Phase VFD Derating, Rotary Phase Converter & Wire Calculator (2026)</title>
+  <meta name="description" content="Calculate exact single-phase 240V to 3-phase 230V VFD upsizing (√3 diode derating), Rotary Phase Converter idler HP, NEC 430 breaker/wire AWG, and braking resistor Ohms/Watts for mills, lathes, air compressors, and saws.">
+  <link rel="canonical" href="https://hanifsalman11.github.io/phase-converter-index/">
+  <link rel="alternate" type="application/rss+xml" title="3PhaseVFDIndex RSS Feed" href="https://hanifsalman11.github.io/phase-converter-index/rss.xml">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-zinc-950 text-zinc-100 min-h-screen flex flex-col">
+  <header class="border-b border-zinc-800 bg-zinc-900/80 sticky top-0 z-30 backdrop-blur">
+    <div class="max-w-5xl mx-auto px-4 py-3.5 flex items-center justify-between">
+      <div class="text-lg font-black text-white flex items-center gap-2">
+        <span class="bg-amber-500 text-zinc-950 px-2 py-0.5 rounded font-black">3PHASE</span>VFDIndex
+      </div>
+      <a href="https://www.amazon.com/s?k=Single%2Bto%2B3%2BPhase%2BVFD%2BVariable%2BFrequency%2BDrive%2BRotary%2BPhase%2BConverter%2B240V&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="text-xs sm:text-sm bg-amber-500 hover:bg-amber-400 text-zinc-950 font-extrabold px-3.5 py-2 rounded-lg transition">
+        Shop 3-Phase VFDs & Rotary Phase Converters on Amazon →
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-12 flex-1 w-full">
+    <div class="text-center max-w-2xl mx-auto mb-10">
+      <h1 class="text-3xl sm:text-5xl font-black text-white tracking-tight">Single-to-3-Phase VFD Derating & Rotary Phase Converter Database</h1>
+      <p class="text-zinc-400 mt-3 text-base sm:text-lg">Select your 3-phase shop machine or motor HP below to calculate √3 single-phase diode-bridge VFD derating, Rotary Phase Converter idler sizing, 240V breaker/wire AWG, and braking resistor Ohms.</p>
+      <div class="mt-6">
+        <input id="filterInput" type="text" placeholder="Search machine or HP (e.g. Bridgeport Mill, 5 HP Air Compressor, 7.5 HP, American Rotary AR10, Teco VFD, Lathe...)" class="w-full bg-zinc-900 border border-zinc-700 rounded-xl px-4 py-3.5 text-sm text-white focus:outline-none focus:border-amber-500">
+      </div>
+    </div>
+
+    <div id="phGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <a href="south-bend-clausing-3-hp-3-phase-metal-lathe-vfd-setup-vfd-rpc-calculator.html" class="block bg-zinc-900 border border-zinc-800 hover:border-amber-500/60 rounded-xl p-5 transition group">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-black uppercase bg-amber-500 text-zinc-950 px-2.5 py-0.5 rounded">3 HP → 5 HP VFD</span>
+            <span class="text-xs text-zinc-400">1Φ: 17.8A | 30A Brk</span>
+          </div>
+          <h2 class="text-base font-bold text-white group-hover:text-amber-400 transition">South Bend / Clausing 3 HP 3-Phase Metal Lathe VFD Setup</h2>
+          <p class="text-xs text-zinc-400 mt-2 line-clamp-2">Calculate exact single-to-3-phase VFD upsizing (5 HP / 17.8A), Rotary Phase Converter size (7.5 HP), 240V 1-phase breaker (30A / 10 AWG THHN / 10/2 NM-B Copper), and 50Ω 500W braking resistor for South Bend / Clausing 3 HP 3-Phase Metal Lathe VFD Setup.</p>
+          <span class="inline-block mt-4 text-xs font-extrabold text-amber-400">Calculate VFD Derating, RPC & Wire →</span>
+        </a>
+        <a href="bridgeport-15-hp-j-head-3-phase-mill-on-240v-single-phase-vfd-rpc-calculator.html" class="block bg-zinc-900 border border-zinc-800 hover:border-amber-500/60 rounded-xl p-5 transition group">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-black uppercase bg-amber-500 text-zinc-950 px-2.5 py-0.5 rounded">1.5 HP → 3 HP VFD</span>
+            <span class="text-xs text-zinc-400">1Φ: 9.6A | 15A Brk</span>
+          </div>
+          <h2 class="text-base font-bold text-white group-hover:text-amber-400 transition">Bridgeport 1.5 HP J-Head 3-Phase Mill on 240V Single-Phase</h2>
+          <p class="text-xs text-zinc-400 mt-2 line-clamp-2">Calculate exact single-to-3-phase VFD upsizing (3 HP / 9.6A), Rotary Phase Converter size (3 HP), 240V 1-phase breaker (15A / 14 AWG THHN / 14/2 NM-B Copper), and 100Ω 300W braking resistor for Bridgeport 1.5 HP J-Head 3-Phase Mill on 240V Single-Phase.</p>
+          <span class="inline-block mt-4 text-xs font-extrabold text-amber-400">Calculate VFD Derating, RPC & Wire →</span>
+        </a>
+        <a href="bridgeport-series-i-2-hp-3-phase-milling-machine-vfd-setup-vfd-rpc-calculator.html" class="block bg-zinc-900 border border-zinc-800 hover:border-amber-500/60 rounded-xl p-5 transition group">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-black uppercase bg-amber-500 text-zinc-950 px-2.5 py-0.5 rounded">2 HP → 3 HP VFD</span>
+            <span class="text-xs text-zinc-400">1Φ: 12.6A | 20A Brk</span>
+          </div>
+          <h2 class="text-base font-bold text-white group-hover:text-amber-400 transition">Bridgeport Series I 2 HP 3-Phase Milling Machine VFD Setup</h2>
+          <p class="text-xs text-zinc-400 mt-2 line-clamp-2">Calculate exact single-to-3-phase VFD upsizing (3 HP / 12.6A), Rotary Phase Converter size (5 HP), 240V 1-phase breaker (20A / 12 AWG THHN / 12/2 NM-B Copper), and 70Ω 300W braking resistor for Bridgeport Series I 2 HP 3-Phase Milling Machine VFD Setup.</p>
+          <span class="inline-block mt-4 text-xs font-extrabold text-amber-400">Calculate VFD Derating, RPC & Wire →</span>
+        </a></div>
+  </main>
+
+  <footer class="border-t border-zinc-800 py-8 text-center text-xs text-zinc-500">
+    <p>© 2026 3PhaseVFDIndex. As an Amazon Associate, we earn from qualifying purchases.</p>
+  </footer>
+
+  <script>
+    const filterInput = document.getElementById('filterInput');
+    const cards = Array.from(document.getElementById('phGrid').children);
+    filterInput.addEventListener('input', (e) => {
+      const q = e.target.value.toLowerCase();
+      cards.forEach(c => {
+        c.style.display = c.textContent.toLowerCase().includes(q) ? 'block' : 'none';
+      });
+    });
+  </script>
+</body>
+</html>

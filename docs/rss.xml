@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3PhaseVFDIndex Single-to-3-Phase VFD & Rotary Converter Database</title>
+    <link>https://hanifsalman11.github.io/phase-converter-index/</link>
+    <description>Interactive Single-to-3-Phase VFD Derating, Rotary Phase Converter & Braking Resistor Calculators</description>
+    <atom:link href="https://hanifsalman11.github.io/phase-converter-index/rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
+    <item>
+      <title>South Bend / Clausing 3 HP 3-Phase Metal Lathe VFD Setup VFD Derating, Rotary Phase Converter & Wire Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/phase-converter-index/south-bend-clausing-3-hp-3-phase-metal-lathe-vfd-setup-vfd-rpc-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/phase-converter-index/south-bend-clausing-3-hp-3-phase-metal-lathe-vfd-setup-vfd-rpc-calculator.html</guid>
+      <description>Calculate exact single-to-3-phase VFD upsizing (5 HP / 17.8A), Rotary Phase Converter size (7.5 HP), 240V 1-phase breaker (30A / 10 AWG THHN / 10/2 NM-B Copper), and 50Ω 500W braking resistor for South Bend / Clausing 3 HP 3-Phase Metal Lathe VFD Setup.</description>
+    </item>
+    <item>
+      <title>Bridgeport 1.5 HP J-Head 3-Phase Mill on 240V Single-Phase VFD Derating, Rotary Phase Converter & Wire Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/phase-converter-index/bridgeport-15-hp-j-head-3-phase-mill-on-240v-single-phase-vfd-rpc-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/phase-converter-index/bridgeport-15-hp-j-head-3-phase-mill-on-240v-single-phase-vfd-rpc-calculator.html</guid>
+      <description>Calculate exact single-to-3-phase VFD upsizing (3 HP / 9.6A), Rotary Phase Converter size (3 HP), 240V 1-phase breaker (15A / 14 AWG THHN / 14/2 NM-B Copper), and 100Ω 300W braking resistor for Bridgeport 1.5 HP J-Head 3-Phase Mill on 240V Single-Phase.</description>
+    </item>
+    <item>
+      <title>Bridgeport Series I 2 HP 3-Phase Milling Machine VFD Setup VFD Derating, Rotary Phase Converter & Wire Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/phase-converter-index/bridgeport-series-i-2-hp-3-phase-milling-machine-vfd-setup-vfd-rpc-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/phase-converter-index/bridgeport-series-i-2-hp-3-phase-milling-machine-vfd-setup-vfd-rpc-calculator.html</guid>
+      <description>Calculate exact single-to-3-phase VFD upsizing (3 HP / 12.6A), Rotary Phase Converter size (5 HP), 240V 1-phase breaker (20A / 12 AWG THHN / 12/2 NM-B Copper), and 70Ω 300W braking resistor for Bridgeport Series I 2 HP 3-Phase Milling Machine VFD Setup.</description>
+    </item>
+  </channel>
+</rss>
