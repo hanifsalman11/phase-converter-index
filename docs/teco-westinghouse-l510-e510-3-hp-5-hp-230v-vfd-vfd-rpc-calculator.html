@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teco Westinghouse L510 & E510 (3 HP / 5 HP) 230V VFD VFD Derating, Rotary Phase Converter & Wire Calculator (2026)</title>
+  <meta name="description" content="Calculate exact single-to-3-phase VFD upsizing (5 HP / 17.8A), Rotary Phase Converter size (7.5 HP), 240V 1-phase breaker (30A / 10 AWG THHN / 10/2 NM-B Copper), and 50Ω 500W braking resistor for Teco Westinghouse L510 & E510 (3 HP / 5 HP) 230V VFD.">
+  <link rel="canonical" href="https://hanifsalman11.github.io/phase-converter-index/teco-westinghouse-l510-e510-3-hp-5-hp-230v-vfd-vfd-rpc-calculator.html">
+  <meta property="og:title" content="Teco Westinghouse L510 & E510 (3 HP / 5 HP) 230V VFD VFD Derating, Rotary Phase Converter & Wire Calculator (2026)">
+  <meta property="og:description" content="Calculate exact single-to-3-phase VFD upsizing (5 HP / 17.8A), Rotary Phase Converter size (7.5 HP), 240V 1-phase breaker (30A / 10 AWG THHN / 10/2 NM-B Copper), and 50Ω 500W braking resistor for Teco Westinghouse L510 & E510 (3 HP / 5 HP) 230V VFD.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://hanifsalman11.github.io/phase-converter-index/teco-westinghouse-l510-e510-3-hp-5-hp-230v-vfd-vfd-rpc-calculator.html">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "SoftwareApplication", "name": "Teco Westinghouse L510 & E510 (3 HP / 5 HP) 230V VFD VFD, Rotary Phase Converter & Breaker Calculator", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Web Browser", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why do I need a 5 HP VFD to run a 3 HP 3-phase motor on single-phase 240V?", "acceptedAnswer": {"@type": "Answer", "text": "When a standard 3-phase VFD is fed by 240V single-phase power (connected to L1 and L2), input current increases by $\\sqrt{3}$ (1.732x)\u2014rising from 9.6A to 17.8A\u2014while flowing through only 4 of the 6 input rectifier diodes. Upsizing to a 5 HP (3.8 kW) VFD prevents diode overheating and DC bus undervoltage faults."}}, {"@type": "Question", "name": "Should I use a VFD or a 7.5 HP Rotary Phase Converter for Teco Westinghouse L510 & E510 (3 HP / 5 HP) 230V VFD?", "acceptedAnswer": {"@type": "Answer", "text": "Use a VFD (5 HP) if you want dial-controlled variable spindle RPM, soft-start acceleration, and electronic dynamic braking on a single motor. Use a 7.5 HP Rotary Phase Converter if you are powering a high-inrush reciprocating air compressor, a machine with complex 3-phase transformers/coolant pumps, or multiple 3-phase tools simultaneously."}}, {"@type": "Question", "name": "What size 240V breaker and wire do I need for Teco Westinghouse L510 & E510 (3 HP / 5 HP) 230V VFD?", "acceptedAnswer": {"@type": "Answer", "text": "Drawing 17.8 Amps on the 240V single-phase input legs, NEC Article 430.122 (125%\u2013135% input rating) requires a dedicated 30-Amp 2-pole circuit breaker wired with 10 AWG THHN / 10/2 NM-B Copper."}}]}]}</script>
+</head>
+<body class="bg-zinc-950 text-zinc-100 antialiased min-h-screen flex flex-col">
+  <header class="border-b border-zinc-800 bg-zinc-900/80 backdrop-blur sticky top-0 z-30">
+    <div class="max-w-5xl mx-auto px-4 py-3.5 flex items-center justify-between">
+      <a href="index.html" class="text-lg font-black tracking-tight text-white flex items-center gap-2">
+        <span class="bg-amber-500 text-zinc-950 px-2 py-0.5 rounded font-black">3PHASE</span>VFDIndex
+      </a>
+      <a href="https://www.amazon.com/s?k=Single%2Bto%2B3%2BPhase%2BVFD%2BVariable%2BFrequency%2BDrive%2BRotary%2BPhase%2BConverter%2B240V&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="text-xs sm:text-sm bg-amber-500 hover:bg-amber-400 text-zinc-950 font-extrabold px-3.5 py-2 rounded-lg transition">
+        Shop 3-Phase VFDs & Rotary Phase Converters on Amazon →
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-10 flex-1 w-full">
+    <div class="mb-8">
+      <div class="flex flex-wrap items-center gap-2.5 mb-3">
+        <span class="text-xs font-extrabold uppercase tracking-widest bg-amber-500 text-zinc-950 px-3 py-1 rounded-full">3 HP Motor → 5 HP VFD / 7.5 HP RPC</span>
+        <span class="text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-3 py-1 rounded-full">1Φ Input: 17.8A (30A Breaker)</span>
+        <span class="text-xs font-semibold bg-zinc-800 text-zinc-300 px-3 py-1 rounded-full">Braking: 50Ω / 500W | 10 AWG THHN / 10/2 NM-B Copper</span>
+      </div>
+      <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">Teco Westinghouse L510 & E510 (3 HP / 5 HP) 230V VFD VFD Derating, Rotary Phase Converter & Wire Calculator (2026)</h1>
+      <div class="mt-4 bg-zinc-900 border-l-4 border-amber-500 p-4 rounded-r-xl text-sm text-zinc-200 leading-relaxed">
+        <strong>NEC Article 430 & Diode-Bridge Derating Verdict:</strong> Running a 3 HP 230V 3-phase motor (9.6A 3-phase FLA, Industrial VFD) on residential 240V single-phase power draws 17.8 Amps on the single-phase supply legs ($I_{1\phi} = I_{3\phi} \times \sqrt{3} \div \eta$). Because feeding single-phase 240V into a 3-phase VFD routes all current through just 4 of the 6 input rectifier diodes and doubles DC bus capacitor ripple, you MUST derate the VFD by 50%—selecting a 5 HP (3.8 kW, 17.8A+ rated) VFD, or a 7.5 HP Digital Rotary Phase Converter. Wire the 240V single-phase input with a 30-Amp 2-pole breaker and 10 AWG THHN / 10/2 NM-B Copper, paired with a 50 $\Omega$ / 500W Dynamic Braking Resistor.
+      </div>
+    </div>
+
+    <!-- INTERACTIVE SINGLE-TO-3-PHASE VFD DERATING, RPC & BRAKING RESISTOR CALCULATOR -->
+    <section class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 sm:p-8 mb-12 shadow-2xl">
+      <h2 class="text-xl font-extrabold text-white mb-2">Interactive Teco Westinghouse L510 & E510 (3 HP / 5 HP) 230V VFD VFD, RPC & Breaker Calculator</h2>
+      <p class="text-xs text-zinc-400 mb-6">Select your 230V 3-phase motor horsepower, machine starting torque load, and conversion method to calculate single-phase 240V input amps, upsized VFD/RPC rating, NEC 430 breaker size, and braking resistor specs.</p>
+
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div class="space-y-5">
+          <div>
+            <label for="hpSelect" class="block text-xs font-medium text-zinc-400 mb-1">3-Phase Motor Nameplate Horsepower (@230V)</label>
+            <select id="hpSelect" class="w-full bg-zinc-950 border border-zinc-700 rounded-lg px-3 py-2.5 text-sm font-bold text-white focus:outline-none focus:border-amber-500">
+              <option value="1.0|3.6" >1.0 HP 3-Phase Motor (3.6A FLA)</option>
+              <option value="1.5|5.2" >1.5 HP 3-Phase Motor (5.2A FLA)</option>
+              <option value="2.0|6.8" >2.0 HP 3-Phase Motor (6.8A FLA)</option>
+              <option value="3.0|9.6" selected>3.0 HP 3-Phase Motor (9.6A FLA)</option>
+              <option value="5.0|15.2" >5.0 HP 3-Phase Motor (15.2A FLA)</option>
+              <option value="7.5|22.0" >7.5 HP 3-Phase Motor (22.0A FLA)</option>
+              <option value="10.0|28.0" >10.0 HP 3-Phase Motor (28.0A FLA)</option>
+              <option value="15.0|42.0" >15.0 HP 3-Phase Motor (42.0A FLA)</option>
+            </select>
+          </div>
+
+          <div class="grid grid-cols-2 gap-3">
+            <div>
+              <label for="dutySelect" class="block text-xs font-medium text-zinc-400 mb-1">Machine Starting Load</label>
+              <select id="dutySelect" class="w-full bg-zinc-950 border border-zinc-700 rounded-lg px-3 py-2 text-xs text-white focus:outline-none focus:border-amber-500">
+                <option value="1.65">Centrifugal Fan / Pump / Spindle (1.65x)</option>
+                <option value="1.85" selected>Mill / Lathe / Table Saw / Grinder (1.85x)</option>
+                <option value="2.10">Air Compressor / Hydraulic Press (2.1x)</option>
+              </select>
+            </div>
+            <div>
+              <label for="brakeSelect" class="block text-xs font-medium text-zinc-400 mb-1">Spindle / Blade Braking Duty</label>
+              <select id="brakeSelect" class="w-full bg-zinc-950 border border-zinc-700 rounded-lg px-3 py-2 text-xs text-white focus:outline-none focus:border-amber-500">
+                <option value="120">Standard Stop (3–5 sec Ramp)</option>
+                <option value="180" selected>Fast Emergency Stop (1.5–2 sec)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4">
+          <div class="bg-zinc-950 border border-amber-500/30 rounded-xl p-4">
+            <span class="text-xs uppercase text-amber-400 font-bold">Upsized VFD / RPC</span>
+            <div id="vfdOut" class="text-xl sm:text-2xl font-black text-white mt-1">5 HP (3.8 kW)</div>
+            <p id="rpcNoteOut" class="text-xs text-amber-400 font-semibold mt-1">Or 7.5 HP Rotary Converter</p>
+          </div>
+
+          <div class="bg-zinc-950 border border-emerald-500/30 rounded-xl p-4">
+            <span class="text-xs uppercase text-emerald-400 font-bold">240V 1Φ Breaker & Brake</span>
+            <div id="brkWireOut" class="text-xl sm:text-2xl font-black text-emerald-400 mt-1">30A (10 AWG)</div>
+            <p id="resistorOut" class="text-xs text-zinc-300 font-semibold mt-1">Brake: 50Ω / 500W</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-6 bg-amber-950/40 border border-amber-500/30 rounded-xl p-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div id="phAdviceBanner" class="text-sm text-amber-100 font-medium"></div>
+        <a id="dynamicPhBtn" href="https://www.amazon.com/s?k=Single%2Bto%2B3%2BPhase%2BVFD%2BVariable%2BFrequency%2BDrive%2BRotary%2BPhase%2BConverter%2B240V&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="shrink-0 bg-amber-500 hover:bg-amber-400 text-zinc-950 font-extrabold px-4 py-2.5 rounded-lg text-xs uppercase tracking-wider transition">
+          Shop Matched VFD & Phase Converter on Amazon →
+        </a>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-2xl font-extrabold text-white">Complete Teco Westinghouse L510 & E510 (3 HP / 5 HP) 230V VFD VFD, RPC & Braking Resistor Bundle</h2>
+        <span class="text-xs text-zinc-400">NEC Article 430 & √3 Diode-Derated</span>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="bg-zinc-900 border border-zinc-800 rounded-xl p-5 flex flex-col justify-between hover:border-amber-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-amber-500/10 text-amber-400 border border-amber-500/20 px-2.5 py-0.5 rounded">5 HP (3.8 kW) VFD</span>
+              <span class="text-sm font-bold text-emerald-400">$139 - $689</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">5 HP (3.8 kW / 18A+) Single-Phase 240V Input to 3-Phase 230V Output VFD</h3>
+            <p class="text-xs text-zinc-400 mt-2 leading-relaxed">⚙️ Oversized diode bridge and DC bus capacitors safely handle 17.8A single-phase input without tripping under 3 HP load.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=5+HP+3.8kW+220V+Single+to+3+Phase+VFD+Variable+Frequency+Drive&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-amber-500 hover:bg-amber-400 text-zinc-950 font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div>
+        <div class="bg-zinc-900 border border-zinc-800 rounded-xl p-5 flex flex-col justify-between hover:border-amber-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-amber-500/10 text-amber-400 border border-amber-500/20 px-2.5 py-0.5 rounded">7.5 HP Rotary Converter</span>
+              <span class="text-sm font-bold text-emerald-400">$489 - $1,699</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">7.5 HP Digital Rotary Phase Converter (American Rotary / Phoenix True 3-Phase Generator)</h3>
+            <p class="text-xs text-zinc-400 mt-2 leading-relaxed">⚙️ Generates balanced <3% voltage-imbalance sine-wave 3-phase power ideal for hard-starting air compressors and multi-motor shops.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=7.5+HP+Rotary+Phase+Converter+240V+Single+to+3+Phase+American+Rotary&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-amber-500 hover:bg-amber-400 text-zinc-950 font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div>
+        <div class="bg-zinc-900 border border-zinc-800 rounded-xl p-5 flex flex-col justify-between hover:border-amber-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-amber-500/10 text-amber-400 border border-amber-500/20 px-2.5 py-0.5 rounded">50Ω 500W Brake Resistor</span>
+              <span class="text-sm font-bold text-emerald-400">$29 - $89</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">500W 50 Ohm Aluminum-Housed Wirewound VFD Dynamic Braking Resistor</h3>
+            <p class="text-xs text-zinc-400 mt-2 leading-relaxed">⚙️ Dissipates regenerative kinetic energy during rapid spindle/saw deceleration so the VFD never faults on DC Bus Overvoltage (OV).</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=500W+50+Ohm+Aluminum+Braking+Resistor+VFD&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-amber-500 hover:bg-amber-400 text-zinc-950 font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div>
+        <div class="bg-zinc-900 border border-zinc-800 rounded-xl p-5 flex flex-col justify-between hover:border-amber-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-amber-500/10 text-amber-400 border border-amber-500/20 px-2.5 py-0.5 rounded">30A Breaker & Enclosure</span>
+              <span class="text-sm font-bold text-emerald-400">$69 - $189</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">240V 30A 2-Pole Circuit Breaker + Ventilated NEMA-12 Steel VFD Enclosure w/ Filter Fan</h3>
+            <p class="text-xs text-zinc-400 mt-2 leading-relaxed">⚙️ Shields VFD circuit boards from conductive metal swarf and explosive wood dust while maintaining cooling airflow.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=NEMA+Enclosure+Fan+Filter+VFD+30A+2+Pole+Breaker&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-amber-500 hover:bg-amber-400 text-zinc-950 font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div></div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-white mb-4">Single-Phase 240V to 3-Phase 230V VFD Derating, RPC & Breaker Sizing Chart</h2>
+      <div class="overflow-x-auto bg-zinc-900 border border-zinc-800 rounded-xl">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-zinc-800 bg-zinc-950/60 text-zinc-400 uppercase text-xs">
+              <th class="py-3.5 px-4">3-Phase Motor HP</th>
+              <th class="py-3.5 px-4">1-Phase 240V Amps</th>
+              <th class="py-3.5 px-4 text-amber-400">Min Upsized VFD</th>
+              <th class="py-3.5 px-4 text-emerald-400">Rotary Converter (RPC)</th>
+              <th class="py-3.5 px-4">240V Breaker & Wire</th>
+              <th class="py-3.5 px-4">Braking Resistor</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr class="border-b border-zinc-800 hover:bg-zinc-800/40">
+          <td class="py-3 px-4 font-bold text-white">1.5 HP 3-Phase (5.2A)</td>
+          <td class="py-3 px-4 text-zinc-300">9.6A @ 240V 1Φ</td>
+          <td class="py-3 px-4 font-bold text-amber-400">3.0 HP (2.2 kW) VFD</td>
+          <td class="py-3 px-4 text-emerald-400 font-semibold">3.0 HP Rotary RPC</td>
+          <td class="py-3 px-4 text-zinc-300">15A / 20A (12 AWG)</td>
+          <td class="py-3 px-4 text-xs text-zinc-300">100Ω / 300W</td>
+        </tr>
+        <tr class="border-b border-zinc-800 hover:bg-zinc-800/40">
+          <td class="py-3 px-4 font-bold text-white">2.0 HP 3-Phase (6.8A)</td>
+          <td class="py-3 px-4 text-zinc-300">12.6A @ 240V 1Φ</td>
+          <td class="py-3 px-4 font-bold text-amber-400">3.0 – 5.0 HP (2.2–3.7 kW)</td>
+          <td class="py-3 px-4 text-emerald-400 font-semibold">5.0 HP Rotary RPC</td>
+          <td class="py-3 px-4 text-zinc-300">20A (12 AWG Copper)</td>
+          <td class="py-3 px-4 text-xs text-zinc-300">75Ω / 400W</td>
+        </tr>
+        <tr class="border-b border-zinc-800 hover:bg-zinc-800/40">
+          <td class="py-3 px-4 font-bold text-white">3.0 HP 3-Phase (9.6A)</td>
+          <td class="py-3 px-4 text-zinc-300">17.8A @ 240V 1Φ</td>
+          <td class="py-3 px-4 font-bold text-amber-400">5.0 HP (3.7–4.0 kW) VFD</td>
+          <td class="py-3 px-4 text-emerald-400 font-semibold">5.0 – 7.5 HP RPC</td>
+          <td class="py-3 px-4 text-zinc-300">25A / 30A (10 AWG)</td>
+          <td class="py-3 px-4 text-xs text-zinc-300">50Ω / 500W</td>
+        </tr>
+        <tr class="border-b border-zinc-800 hover:bg-zinc-800/40">
+          <td class="py-3 px-4 font-bold text-white">5.0 HP 3-Phase (15.2A)</td>
+          <td class="py-3 px-4 text-zinc-300">28.1A @ 240V 1Φ</td>
+          <td class="py-3 px-4 font-bold text-amber-400">7.5 – 10 HP (5.5–7.5 kW)</td>
+          <td class="py-3 px-4 text-emerald-400 font-semibold">10.0 HP Rotary RPC</td>
+          <td class="py-3 px-4 text-zinc-300">40A (8 AWG Copper)</td>
+          <td class="py-3 px-4 text-xs text-zinc-300">30Ω / 800W</td>
+        </tr>
+        <tr class="border-b border-zinc-800 hover:bg-zinc-800/40">
+          <td class="py-3 px-4 font-bold text-white">7.5 HP 3-Phase (22.0A)</td>
+          <td class="py-3 px-4 text-zinc-300">40.7A @ 240V 1Φ</td>
+          <td class="py-3 px-4 font-bold text-amber-400">15.0 HP (11 kW) VFD</td>
+          <td class="py-3 px-4 text-emerald-400 font-semibold">15.0 HP Rotary RPC</td>
+          <td class="py-3 px-4 text-zinc-300">60A (6 AWG THHN)</td>
+          <td class="py-3 px-4 text-xs text-zinc-300">20Ω / 1,200W</td>
+        </tr>
+        <tr class="border-b border-zinc-800 hover:bg-zinc-800/40">
+          <td class="py-3 px-4 font-bold text-white">10.0 HP 3-Phase (28.0A)</td>
+          <td class="py-3 px-4 text-zinc-300">51.8A @ 240V 1Φ</td>
+          <td class="py-3 px-4 font-bold text-amber-400">20.0 HP (15 kW) VFD</td>
+          <td class="py-3 px-4 text-emerald-400 font-semibold">20.0 HP Rotary RPC</td>
+          <td class="py-3 px-4 text-zinc-300">70A / 80A (4 AWG)</td>
+          <td class="py-3 px-4 text-xs text-zinc-300">15Ω / 1,600W</td>
+        </tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-2xl font-extrabold text-white">Master Machinist VFD Control Wiring & Braking Resistor Checklist</h2>
+        <span id="phBadge" class="text-xs font-bold bg-zinc-800 text-amber-400 px-3 py-1 rounded-full">0 / 4 Completed</span>
+      </div>
+      <div class="space-y-3">
+        <label class="flex items-start gap-3.5 bg-zinc-900 border border-zinc-800 rounded-xl p-4 cursor-pointer hover:border-zinc-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-amber-500 rounded cursor-pointer ph-check">
+          <span class="text-sm text-zinc-200 leading-relaxed"><strong>NEC 430 Step 1:</strong> Never wire any magnetic starter, drum switch, or contactor BETWEEN a VFD's 3-phase output (U/V/W) and the 3 HP motor! Opening a switch under load while a VFD is outputting PWM power instantly destroys the IGBT transistor module. Wire all start/stop/reverse toggle switches to the VFD's low-voltage control terminals.</span>
+        </label>
+        <label class="flex items-start gap-3.5 bg-zinc-900 border border-zinc-800 rounded-xl p-4 cursor-pointer hover:border-zinc-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-amber-500 rounded cursor-pointer ph-check">
+          <span class="text-sm text-zinc-200 leading-relaxed"><strong>NEC 430 Step 2:</strong> Apply the $\sqrt{3}$ (1.732x to 2.0x) Single-Phase Derating Rule: a 3 HP motor (9.6A 3-phase) draws 17.8A from a 240V single-phase line—so use at least a 5 HP (17.8A+) VFD.</span>
+        </label>
+        <label class="flex items-start gap-3.5 bg-zinc-900 border border-zinc-800 rounded-xl p-4 cursor-pointer hover:border-zinc-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-amber-500 rounded cursor-pointer ph-check">
+          <span class="text-sm text-zinc-200 leading-relaxed"><strong>NEC 430 Step 3:</strong> Choose a Rotary Phase Converter (RPC) instead of a VFD if your machine has single-phase 240V control transformers, coolant pumps, power feeds, or PLC electronics wired off the main disconnect, or if you want to run multiple 3-phase machines from one panel.</span>
+        </label>
+        <label class="flex items-start gap-3.5 bg-zinc-900 border border-zinc-800 rounded-xl p-4 cursor-pointer hover:border-zinc-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-amber-500 rounded cursor-pointer ph-check">
+          <span class="text-sm text-zinc-200 leading-relaxed"><strong>NEC 430 Step 4:</strong> Connect a 50 $\Omega$ / 500W aluminum-clad braking resistor to the VFD's P+ and DB (PB) terminals and program deceleration ramp time to 2.5–4.0 seconds for lathes, mills, and saws.</span>
+        </label></div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-white mb-5">Frequently Asked Questions (Teco Westinghouse L510 & E510 (3 HP / 5 HP) 230V VFD)</h2>
+      <div class="space-y-4"><div class='bg-zinc-900 border border-zinc-800 rounded-xl p-5'><h3 class='font-bold text-white text-base mb-2'>Why do I need a 5 HP VFD to run a 3 HP 3-phase motor on single-phase 240V?</h3><p class='text-sm text-zinc-300 leading-relaxed'>When a standard 3-phase VFD is fed by 240V single-phase power (connected to L1 and L2), input current increases by $\sqrt{3}$ (1.732x)—rising from 9.6A to 17.8A—while flowing through only 4 of the 6 input rectifier diodes. Upsizing to a 5 HP (3.8 kW) VFD prevents diode overheating and DC bus undervoltage faults.</p></div><div class='bg-zinc-900 border border-zinc-800 rounded-xl p-5'><h3 class='font-bold text-white text-base mb-2'>Should I use a VFD or a 7.5 HP Rotary Phase Converter for Teco Westinghouse L510 & E510 (3 HP / 5 HP) 230V VFD?</h3><p class='text-sm text-zinc-300 leading-relaxed'>Use a VFD (5 HP) if you want dial-controlled variable spindle RPM, soft-start acceleration, and electronic dynamic braking on a single motor. Use a 7.5 HP Rotary Phase Converter if you are powering a high-inrush reciprocating air compressor, a machine with complex 3-phase transformers/coolant pumps, or multiple 3-phase tools simultaneously.</p></div><div class='bg-zinc-900 border border-zinc-800 rounded-xl p-5'><h3 class='font-bold text-white text-base mb-2'>What size 240V breaker and wire do I need for Teco Westinghouse L510 & E510 (3 HP / 5 HP) 230V VFD?</h3><p class='text-sm text-zinc-300 leading-relaxed'>Drawing 17.8 Amps on the 240V single-phase input legs, NEC Article 430.122 (125%–135% input rating) requires a dedicated 30-Amp 2-pole circuit breaker wired with 10 AWG THHN / 10/2 NM-B Copper.</p></div></div>
+    </section>
+  </main>
+
+  <footer class="border-t border-zinc-800 py-8 text-center text-xs text-zinc-500 px-4">
+    <p>© 2026 3PhaseVFDIndex. Independent Single-to-3-Phase VFD & Rotary Phase Converter Sizing Database. As an Amazon Associate, we earn from qualifying purchases.</p>
+  </footer>
+
+  <script>
+    const amzDomain = "www.amazon.com";
+    const amzTag = "salmanrevie04-20";
+
+    const hpSelect = document.getElementById('hpSelect');
+    const dutySelect = document.getElementById('dutySelect');
+    const brakeSelect = document.getElementById('brakeSelect');
+    const vfdOut = document.getElementById('vfdOut');
+    const rpcNoteOut = document.getElementById('rpcNoteOut');
+    const brkWireOut = document.getElementById('brkWireOut');
+    const resistorOut = document.getElementById('resistorOut');
+    const phAdviceBanner = document.getElementById('phAdviceBanner');
+    const dynamicPhBtn = document.getElementById('dynamicPhBtn');
+
+    function recalculatePhase() {
+      const hpParts = hpSelect.value.split('|');
+      const motorHp = parseFloat(hpParts[0]);
+      const fla3 = parseFloat(hpParts[1]);
+      const dutyMult = parseFloat(dutySelect.value);
+      const wattsPerHp = parseInt(brakeSelect.value, 10);
+
+      const input1PhAmps = (fla3 * 1.85).toFixed(1);
+      const rawVfdHp = motorHp * dutyMult;
+
+      let stdVfdHp = 2.0;
+      let stdVfdKw = 1.5;
+      if (rawVfdHp <= 2.2) { stdVfdHp = 2.0; stdVfdKw = 1.5; }
+      else if (rawVfdHp <= 3.5) { stdVfdHp = 3.0; stdVfdKw = 2.2; }
+      else if (rawVfdHp <= 5.8) { stdVfdHp = 5.0; stdVfdKw = 4.0; }
+      else if (rawVfdHp <= 8.2) { stdVfdHp = 7.5; stdVfdKw = 5.5; }
+      else if (rawVfdHp <= 11.5) { stdVfdHp = 10.0; stdVfdKw = 7.5; }
+      else if (rawVfdHp <= 16.5) { stdVfdHp = 15.0; stdVfdKw = 11.0; }
+      else if (rawVfdHp <= 22.0) { stdVfdHp = 20.0; stdVfdKw = 15.0; }
+      else { stdVfdHp = 30.0; stdVfdKw = 22.0; }
+
+      const rpcHp = Math.max(3.0, motorHp * 2.0);
+      const rawBrk = parseFloat(input1PhAmps) * 1.35;
+      let brkSpec = "20A (12 AWG)";
+      if (rawBrk <= 15) brkSpec = "15A (14 AWG)";
+      else if (rawBrk <= 20) brkSpec = "20A (12 AWG)";
+      else if (rawBrk <= 30) brkSpec = "30A (10 AWG)";
+      else if (rawBrk <= 40) brkSpec = "40A (8 AWG)";
+      else if (rawBrk <= 50) brkSpec = "50A (6 AWG)";
+      else if (rawBrk <= 70) brkSpec = "70A (4 AWG)";
+      else brkSpec = "100A (2 AWG)";
+
+      const bOhms = Math.max(15, Math.round((380.0 / (motorHp * 2.6)) / 5) * 5);
+      const bWatts = Math.max(300, Math.round((motorHp * wattsPerHp) / 100) * 100);
+
+      vfdOut.textContent = `${stdVfdHp} HP (${stdVfdKw} kW)`;
+      rpcNoteOut.textContent = `Or ${rpcHp} HP Rotary Converter`;
+      brkWireOut.textContent = brkSpec;
+      resistorOut.textContent = `Brake: ${bOhms}Ω / ${bWatts}W (${input1PhAmps}A 1Φ)`;
+
+      phAdviceBanner.innerHTML = `⚙️ <strong>NEC 430 & Diode Derating Spec:</strong> Running a <strong>${motorHp} HP 3-Phase motor (${fla3}A)</strong> on 240V single-phase draws <strong>${input1PhAmps}A</strong>. Install an upsized <strong>${stdVfdHp} HP (${stdVfdKw} kW) VFD</strong> (or <strong>${rpcHp} HP Rotary Phase Converter</strong>) on a <strong>${brkSpec} circuit</strong> with a <strong>${bOhms}Ω ${bWatts}W Braking Resistor</strong>.`;
+      dynamicPhBtn.href = `https://${amzDomain}/s?k=${stdVfdHp}+HP+${stdVfdKw}kW+Single+to+3+Phase+VFD+Rotary+Phase+Converter+240V&tag=${amzTag}`;
+    }
+
+    hpSelect.addEventListener('change', recalculatePhase);
+    dutySelect.addEventListener('change', recalculatePhase);
+    brakeSelect.addEventListener('change', recalculatePhase);
+    recalculatePhase();
+
+    const checks = document.querySelectorAll('.ph-check');
+    const badge = document.getElementById('phBadge');
+    checks.forEach(ch => {
+      ch.addEventListener('change', () => {
+        const done = Array.from(checks).filter(c => c.checked).length;
+        badge.textContent = `${done} / ${checks.length} Completed`;
+      });
+    });
+  </script>
+</body>
+</html>
