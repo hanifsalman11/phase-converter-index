@@ -163,5 +163,38 @@
     "in_amps": 17.8,
     "brk_a": 30,
     "date": "2026-11-11"
+  },
+  {
+    "converter_name": "Fuji Electric Frenic-Mini & Frenic-Ace 5 HP / 7.5 HP VFD",
+    "slug": "fuji-electric-frenic-mini-frenic-ace-5-hp-75-hp-vfd-vfd-rpc-calculator",
+    "title": "Fuji Electric Frenic-Mini & Frenic-Ace 5 HP / 7.5 HP VFD VFD Derating, Rotary Phase Converter & Wire Calculator (2026)",
+    "description": "Calculate exact single-to-3-phase VFD upsizing (10 HP / 28.1A), Rotary Phase Converter size (10 HP), 240V 1-phase breaker (40A / 8 AWG THHN / 8/2 NM-B Copper), and 30Ω 800W braking resistor for Fuji Electric Frenic-Mini & Frenic-Ace 5 HP / 7.5 HP VFD.",
+    "m_hp": 5.0,
+    "vfd_hp": 10.0,
+    "in_amps": 28.1,
+    "brk_a": 40,
+    "date": "2026-11-12"
+  },
+  {
+    "converter_name": "Hitachi WJ200-022SF (3 HP Single-Phase Input) Sensorless VFD",
+    "slug": "hitachi-wj200-022sf-3-hp-single-phase-input-sensorless-vfd-vfd-rpc-calculator",
+    "title": "Hitachi WJ200-022SF (3 HP Single-Phase Input) Sensorless VFD VFD Derating, Rotary Phase Converter & Wire Calculator (2026)",
+    "description": "Calculate exact single-to-3-phase VFD upsizing (3 HP / 17.8A), Rotary Phase Converter size (5 HP), 240V 1-phase breaker (30A / 10 AWG THHN / 10/2 NM-B Copper), and 50Ω 500W braking resistor for Hitachi WJ200-022SF (3 HP Single-Phase Input) Sensorless VFD.",
+    "m_hp": 3.0,
+    "vfd_hp": 3.0,
+    "in_amps": 17.8,
+    "brk_a": 30,
+    "date": "2026-11-12"
+  },
+  {
+    "converter_name": "Yaskawa V1000 & GA500 Single-to-3-Phase VFD Sizing",
+    "slug": "yaskawa-v1000-ga500-single-to-3-phase-vfd-sizing-vfd-rpc-calculator",
+    "title": "Yaskawa V1000 & GA500 Single-to-3-Phase VFD Sizing VFD Derating, Rotary Phase Converter & Wire Calculator (2026)",
+    "description": "Calculate exact single-to-3-phase VFD upsizing (10 HP / 28.1A), Rotary Phase Converter size (10 HP), 240V 1-phase breaker (40A / 8 AWG THHN / 8/2 NM-B Copper), and 30Ω 800W braking resistor for Yaskawa V1000 & GA500 Single-to-3-Phase VFD Sizing.",
+    "m_hp": 5.0,
+    "vfd_hp": 10.0,
+    "in_amps": 28.1,
+    "brk_a": 40,
+    "date": "2026-11-12"
   }
 ]

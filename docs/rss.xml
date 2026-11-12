@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/phase-converter-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Yaskawa V1000 & GA500 Single-to-3-Phase VFD Sizing VFD Derating, Rotary Phase Converter & Wire Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/phase-converter-index/yaskawa-v1000-ga500-single-to-3-phase-vfd-sizing-vfd-rpc-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/phase-converter-index/yaskawa-v1000-ga500-single-to-3-phase-vfd-sizing-vfd-rpc-calculator.html</guid>
+      <description>Calculate exact single-to-3-phase VFD upsizing (10 HP / 28.1A), Rotary Phase Converter size (10 HP), 240V 1-phase breaker (40A / 8 AWG THHN / 8/2 NM-B Copper), and 30Ω 800W braking resistor for Yaskawa V1000 & GA500 Single-to-3-Phase VFD Sizing.</description>
+    </item>
+    <item>
+      <title>Hitachi WJ200-022SF (3 HP Single-Phase Input) Sensorless VFD VFD Derating, Rotary Phase Converter & Wire Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/phase-converter-index/hitachi-wj200-022sf-3-hp-single-phase-input-sensorless-vfd-vfd-rpc-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/phase-converter-index/hitachi-wj200-022sf-3-hp-single-phase-input-sensorless-vfd-vfd-rpc-calculator.html</guid>
+      <description>Calculate exact single-to-3-phase VFD upsizing (3 HP / 17.8A), Rotary Phase Converter size (5 HP), 240V 1-phase breaker (30A / 10 AWG THHN / 10/2 NM-B Copper), and 50Ω 500W braking resistor for Hitachi WJ200-022SF (3 HP Single-Phase Input) Sensorless VFD.</description>
+    </item>
+    <item>
+      <title>Fuji Electric Frenic-Mini & Frenic-Ace 5 HP / 7.5 HP VFD VFD Derating, Rotary Phase Converter & Wire Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/phase-converter-index/fuji-electric-frenic-mini-frenic-ace-5-hp-75-hp-vfd-vfd-rpc-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/phase-converter-index/fuji-electric-frenic-mini-frenic-ace-5-hp-75-hp-vfd-vfd-rpc-calculator.html</guid>
+      <description>Calculate exact single-to-3-phase VFD upsizing (10 HP / 28.1A), Rotary Phase Converter size (10 HP), 240V 1-phase breaker (40A / 8 AWG THHN / 8/2 NM-B Copper), and 30Ω 800W braking resistor for Fuji Electric Frenic-Mini & Frenic-Ace 5 HP / 7.5 HP VFD.</description>
+    </item>
+    <item>
       <title>Teco Westinghouse L510 & E510 (3 HP / 5 HP) 230V VFD VFD Derating, Rotary Phase Converter & Wire Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/phase-converter-index/teco-westinghouse-l510-e510-3-hp-5-hp-230v-vfd-vfd-rpc-calculator.html</link>
       <guid>https://hanifsalman11.github.io/phase-converter-index/teco-westinghouse-l510-e510-3-hp-5-hp-230v-vfd-vfd-rpc-calculator.html</guid>
