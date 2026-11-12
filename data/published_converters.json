@@ -196,5 +196,38 @@
     "in_amps": 28.1,
     "brk_a": 40,
     "date": "2026-11-12"
+  },
+  {
+    "converter_name": "AutomationDirect GS20 /DURApulse 5 HP & 10 HP VFD",
+    "slug": "automationdirect-gs20-durapulse-5-hp-10-hp-vfd-vfd-rpc-calculator",
+    "title": "AutomationDirect GS20 /DURApulse 5 HP & 10 HP VFD VFD Derating, Rotary Phase Converter & Wire Calculator (2026)",
+    "description": "Calculate exact single-to-3-phase VFD upsizing (10 HP / 28.1A), Rotary Phase Converter size (10 HP), 240V 1-phase breaker (40A / 8 AWG THHN / 8/2 NM-B Copper), and 30Ω 800W braking resistor for AutomationDirect GS20 /DURApulse 5 HP & 10 HP VFD.",
+    "m_hp": 5.0,
+    "vfd_hp": 10.0,
+    "in_amps": 28.1,
+    "brk_a": 40,
+    "date": "2026-11-12"
+  },
+  {
+    "converter_name": "Huanyang / Vevor 2.2kW (3 HP) & 4kW (5.5 HP) CNC Spindle VFD",
+    "slug": "huanyang-vevor-22kw-3-hp-4kw-55-hp-cnc-spindle-vfd-vfd-rpc-calculator",
+    "title": "Huanyang / Vevor 2.2kW (3 HP) & 4kW (5.5 HP) CNC Spindle VFD VFD Derating, Rotary Phase Converter & Wire Calculator (2026)",
+    "description": "Calculate exact single-to-3-phase VFD upsizing (5 HP / 17.8A), Rotary Phase Converter size (5 HP), 240V 1-phase breaker (30A / 10 AWG THHN / 10/2 NM-B Copper), and 50Ω 500W braking resistor for Huanyang / Vevor 2.2kW (3 HP) & 4kW (5.5 HP) CNC Spindle VFD.",
+    "m_hp": 3.0,
+    "vfd_hp": 5.0,
+    "in_amps": 17.8,
+    "brk_a": 30,
+    "date": "2026-11-12"
+  },
+  {
+    "converter_name": "Huanyang / Vevor 5.5kW (7.5 HP) & 7.5kW (10 HP) 240V VFD",
+    "slug": "huanyang-vevor-55kw-75-hp-75kw-10-hp-240v-vfd-vfd-rpc-calculator",
+    "title": "Huanyang / Vevor 5.5kW (7.5 HP) & 7.5kW (10 HP) 240V VFD VFD Derating, Rotary Phase Converter & Wire Calculator (2026)",
+    "description": "Calculate exact single-to-3-phase VFD upsizing (7.5 HP / 28.1A), Rotary Phase Converter size (10 HP), 240V 1-phase breaker (40A / 8 AWG THHN / 8/2 NM-B Copper), and 30Ω 800W braking resistor for Huanyang / Vevor 5.5kW (7.5 HP) & 7.5kW (10 HP) 240V VFD.",
+    "m_hp": 5.0,
+    "vfd_hp": 7.5,
+    "in_amps": 28.1,
+    "brk_a": 40,
+    "date": "2026-11-12"
   }
 ]
