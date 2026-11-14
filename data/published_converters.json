@@ -361,5 +361,38 @@
     "in_amps": 27.8,
     "brk_a": 40,
     "date": "2026-11-14"
+  },
+  {
+    "converter_name": "A 10 Hp Motor",
+    "slug": "a-10-hp-motor-vfd-rpc-calculator",
+    "title": "A 10 Hp Motor VFD Derating, Rotary Phase Converter & Wire Calculator (2026)",
+    "description": "Calculate exact single-to-3-phase VFD upsizing (20 HP / 55.5A), Rotary Phase Converter size (20 HP), 240V 1-phase breaker (100A / 2 AWG THHN Copper in Conduit), and 20Ω 1600W braking resistor for A 10 Hp Motor.",
+    "m_hp": 10.0,
+    "vfd_hp": 20.0,
+    "in_amps": 55.5,
+    "brk_a": 100,
+    "date": "2026-11-14"
+  },
+  {
+    "converter_name": "5Hp Motor",
+    "slug": "5hp-motor-vfd-rpc-calculator",
+    "title": "5Hp Motor VFD Derating, Rotary Phase Converter & Wire Calculator (2026)",
+    "description": "Calculate exact single-to-3-phase VFD upsizing (10 HP / 27.8A), Rotary Phase Converter size (10 HP), 240V 1-phase breaker (40A / 8 AWG THHN / 8/2 NM-B Copper), and 30Ω 800W braking resistor for 5Hp Motor.",
+    "m_hp": 5.0,
+    "vfd_hp": 10.0,
+    "in_amps": 27.8,
+    "brk_a": 40,
+    "date": "2026-11-14"
+  },
+  {
+    "converter_name": "7.5 Hp Motor",
+    "slug": "75-hp-motor-vfd-rpc-calculator",
+    "title": "7.5 Hp Motor VFD Derating, Rotary Phase Converter & Wire Calculator (2026)",
+    "description": "Calculate exact single-to-3-phase VFD upsizing (15 HP / 41.6A), Rotary Phase Converter size (15 HP), 240V 1-phase breaker (70A / 4 AWG THHN Copper in Conduit), and 20Ω 1200W braking resistor for 7.5 Hp Motor.",
+    "m_hp": 7.5,
+    "vfd_hp": 15.0,
+    "in_amps": 41.6,
+    "brk_a": 70,
+    "date": "2026-11-14"
   }
 ]
