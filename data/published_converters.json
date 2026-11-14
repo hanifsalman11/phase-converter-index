@@ -328,5 +328,38 @@
     "in_amps": 28.1,
     "brk_a": 40,
     "date": "2026-11-14"
+  },
+  {
+    "converter_name": "What  Phase Converter Do I Need",
+    "slug": "what-phase-converter-do-i-need-vfd-rpc-calculator",
+    "title": "What  Phase Converter Do I Need VFD Derating, Rotary Phase Converter & Wire Calculator (2026)",
+    "description": "Calculate exact single-to-3-phase VFD upsizing (10 HP / 27.8A), Rotary Phase Converter size (10 HP), 240V 1-phase breaker (40A / 8 AWG THHN / 8/2 NM-B Copper), and 30Ω 800W braking resistor for What  Phase Converter Do I Need.",
+    "m_hp": 5.0,
+    "vfd_hp": 10.0,
+    "in_amps": 27.8,
+    "brk_a": 40,
+    "date": "2026-11-14"
+  },
+  {
+    "converter_name": "How To  A Phase Converter",
+    "slug": "how-to-a-phase-converter-vfd-rpc-calculator",
+    "title": "How To  A Phase Converter VFD Derating, Rotary Phase Converter & Wire Calculator (2026)",
+    "description": "Calculate exact single-to-3-phase VFD upsizing (10 HP / 27.8A), Rotary Phase Converter size (10 HP), 240V 1-phase breaker (40A / 8 AWG THHN / 8/2 NM-B Copper), and 30Ω 800W braking resistor for How To  A Phase Converter.",
+    "m_hp": 5.0,
+    "vfd_hp": 10.0,
+    "in_amps": 27.8,
+    "brk_a": 40,
+    "date": "2026-11-14"
+  },
+  {
+    "converter_name": "What  Rotary Phase Converter Do I Need",
+    "slug": "what-rotary-phase-converter-do-i-need-vfd-rpc-calculator",
+    "title": "What  Rotary Phase Converter Do I Need VFD Derating, Rotary Phase Converter & Wire Calculator (2026)",
+    "description": "Calculate exact single-to-3-phase VFD upsizing (10 HP / 27.8A), Rotary Phase Converter size (10 HP), 240V 1-phase breaker (40A / 8 AWG THHN / 8/2 NM-B Copper), and 30Ω 800W braking resistor for What  Rotary Phase Converter Do I Need.",
+    "m_hp": 5.0,
+    "vfd_hp": 10.0,
+    "in_amps": 27.8,
+    "brk_a": 40,
+    "date": "2026-11-14"
   }
 ]
