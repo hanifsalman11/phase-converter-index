@@ -295,5 +295,38 @@
     "in_amps": 51.8,
     "brk_a": 70,
     "date": "2026-11-13"
+  },
+  {
+    "converter_name": "15 HP 3-Phase Wide-Belt Drum Sander & Sawmill Converter",
+    "slug": "15-hp-3-phase-wide-belt-drum-sander-sawmill-converter-vfd-rpc-calculator",
+    "title": "15 HP 3-Phase Wide-Belt Drum Sander & Sawmill Converter VFD Derating, Rotary Phase Converter & Wire Calculator (2026)",
+    "description": "Calculate exact single-to-3-phase VFD upsizing (30 HP / 77.7A), Rotary Phase Converter size (30 HP), 240V 1-phase breaker (100A / 2 AWG THHN Copper in Conduit), and 20Ω 2400W braking resistor for 15 HP 3-Phase Wide-Belt Drum Sander & Sawmill Converter.",
+    "m_hp": 15.0,
+    "vfd_hp": 30.0,
+    "in_amps": 77.7,
+    "brk_a": 100,
+    "date": "2026-11-14"
+  },
+  {
+    "converter_name": "230V to 460V 3-Phase Step-Up Transformer + RPC/VFD Setup",
+    "slug": "230v-to-460v-3-phase-step-up-transformer-rpcvfd-setup-vfd-rpc-calculator",
+    "title": "230V to 460V 3-Phase Step-Up Transformer + RPC/VFD Setup VFD Derating, Rotary Phase Converter & Wire Calculator (2026)",
+    "description": "Calculate exact single-to-3-phase VFD upsizing (15 HP / 40.7A), Rotary Phase Converter size (15 HP), 240V 1-phase breaker (70A / 4 AWG THHN Copper in Conduit), and 20Ω 1200W braking resistor for 230V to 460V 3-Phase Step-Up Transformer + RPC/VFD Setup.",
+    "m_hp": 7.5,
+    "vfd_hp": 15.0,
+    "in_amps": 40.7,
+    "brk_a": 70,
+    "date": "2026-11-14"
+  },
+  {
+    "converter_name": "VFD Dynamic Braking Resistor Ohms & Wattage Sizing Guide",
+    "slug": "vfd-dynamic-braking-resistor-ohms-wattage-sizing-guide-vfd-rpc-calculator",
+    "title": "VFD Dynamic Braking Resistor Ohms & Wattage Sizing Guide VFD Derating, Rotary Phase Converter & Wire Calculator (2026)",
+    "description": "Calculate exact single-to-3-phase VFD upsizing (10 HP / 28.1A), Rotary Phase Converter size (10 HP), 240V 1-phase breaker (40A / 8 AWG THHN / 8/2 NM-B Copper), and 30Ω 800W braking resistor for VFD Dynamic Braking Resistor Ohms & Wattage Sizing Guide.",
+    "m_hp": 5.0,
+    "vfd_hp": 10.0,
+    "in_amps": 28.1,
+    "brk_a": 40,
+    "date": "2026-11-14"
   }
 ]
