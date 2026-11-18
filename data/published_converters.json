@@ -592,5 +592,38 @@
     "in_amps": 27.8,
     "brk_a": 40,
     "date": "2026-11-17"
+  },
+  {
+    "converter_name": "American Rotary Phase Converter 20Hp",
+    "slug": "american-rotary-phase-converter-20hp-vfd-rpc-calculator",
+    "title": "American Rotary Phase Converter 20Hp VFD Derating, Rotary Phase Converter & Wire Calculator (2026)",
+    "description": "Calculate exact single-to-3-phase VFD upsizing (40 HP / 111.0A), Rotary Phase Converter size (40 HP), 240V 1-phase breaker (100A / 2 AWG THHN Copper in Conduit), and 20Ω 3200W braking resistor for American Rotary Phase Converter 20Hp.",
+    "m_hp": 20.0,
+    "vfd_hp": 40.0,
+    "in_amps": 111.0,
+    "brk_a": 100,
+    "date": "2026-11-18"
+  },
+  {
+    "converter_name": "American Rotary Phase Converter 7.5 Hp",
+    "slug": "american-rotary-phase-converter-75-hp-vfd-rpc-calculator",
+    "title": "American Rotary Phase Converter 7.5 Hp VFD Derating, Rotary Phase Converter & Wire Calculator (2026)",
+    "description": "Calculate exact single-to-3-phase VFD upsizing (15 HP / 41.6A), Rotary Phase Converter size (15 HP), 240V 1-phase breaker (70A / 4 AWG THHN Copper in Conduit), and 20Ω 1200W braking resistor for American Rotary Phase Converter 7.5 Hp.",
+    "m_hp": 7.5,
+    "vfd_hp": 15.0,
+    "in_amps": 41.6,
+    "brk_a": 70,
+    "date": "2026-11-18"
+  },
+  {
+    "converter_name": "American Rotary Phase Converter Reviews",
+    "slug": "american-rotary-phase-converter-reviews-vfd-rpc-calculator",
+    "title": "American Rotary Phase Converter Reviews VFD Derating, Rotary Phase Converter & Wire Calculator (2026)",
+    "description": "Calculate exact single-to-3-phase VFD upsizing (10 HP / 27.8A), Rotary Phase Converter size (10 HP), 240V 1-phase breaker (40A / 8 AWG THHN / 8/2 NM-B Copper), and 30Ω 800W braking resistor for American Rotary Phase Converter Reviews.",
+    "m_hp": 5.0,
+    "vfd_hp": 10.0,
+    "in_amps": 27.8,
+    "brk_a": 40,
+    "date": "2026-11-18"
   }
 ]
