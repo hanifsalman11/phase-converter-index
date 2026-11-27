@@ -7,6 +7,12 @@
     <atom:link href="https://hanifsalman11.github.io/phase-converter-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>3 HP 3-Phase Air Compressor on 240V Single-Phase VFD Derating, Rotary Phase Converter & Wire Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/phase-converter-index/3-hp-3-phase-air-compressor-on-240v-single-phase-vfd-rpc-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/phase-converter-index/3-hp-3-phase-air-compressor-on-240v-single-phase-vfd-rpc-calculator.html</guid>
+      <description>Calculate exact single-to-3-phase VFD upsizing (6 HP / 17.8A), Rotary Phase Converter size (6 HP), 240V 1-phase breaker (30A / 10 AWG THHN / 10/2 NM-B Copper), and 50Ω 500W braking resistor for 3 HP 3-Phase Air Compressor on 240V Single-Phase.</description>
+    </item>
+    <item>
       <title>2 HP 3-Phase CNC Router Spindle on 240V Single-Phase VFD Derating, Rotary Phase Converter & Wire Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/phase-converter-index/2-hp-3-phase-cnc-router-spindle-on-240v-single-phase-vfd-rpc-calculator.html</link>
       <guid>https://hanifsalman11.github.io/phase-converter-index/2-hp-3-phase-cnc-router-spindle-on-240v-single-phase-vfd-rpc-calculator.html</guid>
@@ -179,12 +185,6 @@
       <link>https://hanifsalman11.github.io/phase-converter-index/single-phase-to-3-phase-vfd-price-vfd-rpc-calculator.html</link>
       <guid>https://hanifsalman11.github.io/phase-converter-index/single-phase-to-3-phase-vfd-price-vfd-rpc-calculator.html</guid>
       <description>Calculate exact single-to-3-phase VFD upsizing (10 HP / 27.8A), Rotary Phase Converter size (10 HP), 240V 1-phase breaker (40A / 8 AWG THHN / 8/2 NM-B Copper), and 30Ω 800W braking resistor for Single Phase To 3 Phase Vfd Price.</description>
-    </item>
-    <item>
-      <title>Single Phase To 3 Phase Vfd 15Hp VFD Derating, Rotary Phase Converter & Wire Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/phase-converter-index/single-phase-to-3-phase-vfd-15hp-vfd-rpc-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/phase-converter-index/single-phase-to-3-phase-vfd-15hp-vfd-rpc-calculator.html</guid>
-      <description>Calculate exact single-to-3-phase VFD upsizing (30 HP / 83.2A), Rotary Phase Converter size (30 HP), 240V 1-phase breaker (100A / 2 AWG THHN Copper in Conduit), and 20Ω 2400W braking resistor for Single Phase To 3 Phase Vfd 15Hp.</description>
     </item>
   </channel>
 </rss>
